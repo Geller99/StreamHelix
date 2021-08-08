@@ -1,0 +1,63 @@
+.NavLeft {
+    background-color: #13131D;
+}
+
+@media all and (min-width: 894px) and (max-width: 2000px) {
+    .NavLeft {
+        background-color: #13131d;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+      }
+    
+      .NavLeft--section1 {
+        display: flex;
+        height: 15%;
+        width: 100%;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+    
+      .NavLeft--section2 {
+        display: flex;
+        /* border: 1px solid gold; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        height: 55%;
+        width: 100%;
+      }
+    
+      .NavLeft--section3 {
+        display: flex;
+        /* border: 1px solid yellow; */
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: white;
+        height: 30%;
+        width: 100%;
+      }
+
+      .NavLeft--Barrier {
+        display: flex;
+        box-sizing: border-box;
+        max-width: 100%;
+        margin-top: 22px;
+        background: rgba(255, 255, 255, 0.16);
+        min-width: 0px;
+        min-height: 0px;
+        flex-direction: column;
+        height: 1px;
+        width: 64px;
+      }
+    
+}

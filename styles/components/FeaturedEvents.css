@@ -1,0 +1,119 @@
+.FeaturedEvents {
+  height: 100%;
+  width: 100%;
+  
+  color: white;
+  overflow-x: scroll;
+}
+
+.FeaturedEvents--Slide {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.FeaturedEvents--Slide_Tab {
+  display: inline-block;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgba(66, 66, 76, 0.8);
+  color: rgb(255, 255, 255);
+  width: 100px;
+  flex-direction: row;
+  height: 80%;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.FeaturedEvents--Text{
+  display: none;
+ 
+}
+
+
+
+@media all and (min-width: 894px) and (max-width: 1200px) {
+  .FeaturedEvents {
+    height: 100%;
+    width: 75%;
+    
+    color: white;
+    overflow-x: scroll;
+  }
+
+  .FeaturedEvents--Slide {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 80%;
+  }
+
+  .FeaturedEvents--Slide_Tab {
+    display: inline-block;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(66, 66, 76, 0.8);
+    color: rgb(255, 255, 255);
+    width: 180px;
+    flex-direction: row;
+    padding: 8px;
+    height: 70%;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+}
+
+@media all and (min-width: 1200px) and (max-width: 2000px) {
+  .FeaturedEvents {
+    background-color: #1D1F28;
+    height: 100%;
+    width: 100%;
+    
+    color: white;
+    overflow-y: scroll;
+  }
+
+  
+  .FeaturedEvents--Slide {
+    margin-top: 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
+    height: 70%;
+
+  }
+
+  .FeaturedEvents--Slide_Tab {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(66, 66, 76, 0.8);
+    color: rgb(255, 255, 255);
+    width: 90%;
+    flex-direction: row;
+    padding: 8px;
+    height: 40%;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .FeaturedEvents--Text{
+    margin: 20px;
+   
+  }
+
+}

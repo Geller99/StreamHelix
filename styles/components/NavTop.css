@@ -1,0 +1,121 @@
+
+.NavTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.NavTop--sectionOne{
+    width: 100%;
+}
+
+.NavTop--sectionTwo{
+    display: none;
+}
+
+.NavBarTop--SearchBox {
+  box-sizing: border-box;
+  font-family: inherit;
+  appearance: none;
+  background: transparent;
+  color: inherit;
+  width: 100%;
+  padding: 10px;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 12px;
+  line-height: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 3px;
+  background: rgb(66, 66, 76);
+  box-shadow: none;
+  caret-color: #5b43d1;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+@media all and (min-width: 894px) and (max-width: 2000px) {
+ 
+    .NavTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        width: 100%;
+    }
+
+    .NavTop--sectionOne{
+        width: 50%;
+    }
+
+    .NavTop--sectionTwo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+        align-items: center;
+    }
+
+    
+    .NavBarTop--SearchBox {
+        box-sizing: border-box;
+        font-family: inherit;
+        appearance: none;
+        background: transparent;
+        color: inherit;
+        width: 60%;
+        padding: 10px;
+        font-weight: 500;
+        margin: 0px;
+        font-size: 12px;
+        line-height: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 3px;
+        background: rgb(66, 66, 76);
+        box-shadow: none;
+        caret-color: #5b43d1;
+        color: rgb(255, 255, 255);
+      }
+    
+      .NavBarTop--SearchBox:focus {
+        outline: none;
+      }
+    
+      .NavTop--sectionTwo_DownloadButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.2s ease 0s;
+        position: relative;
+        background: white;
+        color: #5b43d1;
+        border-radius: 2px;
+        border: none;
+        height: 30px;
+        max-width: 107px;
+        width: 100%;
+        padding: 8px 24px;
+      }
+    
+      .NavTop--sectionTwo_UploadButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        width: 100px;
+      }
+}
+
+@media all and (min-width: 0px) and (max-width: 1143px) {
+      .NavTop--sectionTwo_linkbtn {
+        display: none;
+      }
+
+      .NavTop--sectionTwo{
+        width: 30%;
+      }
+}

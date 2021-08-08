@@ -1,0 +1,70 @@
+.FeedTab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.FeedTab--tabs {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.FeedTab--tabs_buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.FeedTab-btn{ 
+    
+}
+
+
+.FeedTab-btn:focus{
+  border-bottom: 5px solid white;
+}
+
+
+@media all and (min-width: 894px) and (max-width: 2000px) {
+  .FeedTab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .FeedTab--tabs {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .FeedTab--tabs_buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  .FeedTab--tabs_section2 {
+    display: flex;
+    width: 60%;
+  }
+
+  
+
+  .FeedTab-btn:focus{
+    border-bottom: 5px solid white;
+  }
+ 
+}

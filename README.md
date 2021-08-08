@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# StreamHelix Streaming App
 
-## Getting Started
+StreamHelix is a Streaming App (cloned after Medal.tv) based on Next js and Typescript boilerplate for accessing a personalized and curated stream for gamers
 
-First, run the development server:
+## Live Version
+```
+streamhelix.vercel.app
+
+```
+
+## Status
+
+UI being built with CSS and Tailwind CSS
+Layouting in Grid
+
+Prospective Features: 
+- Shallow Features on Medal.tv
+- Iframe Streaming, user like, comment and react system
+- Curated Feed based on previous watch history
+- User Login, Authentication and Auth-Routing
+- React Portals for custom Modals
+
+
+## Clone
+```
+clone with command "git clone"
+
+```
+
+## Usage
+
+run in command line with
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies && APIs
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```python
+Responsive CSS + Tailwind CSS
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.tsx`.
+Next Routing + Framer Motion
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+React Testing Library
 
-## Learn More
+Hooks API
 
-To learn more about Next.js, take a look at the following resources:
+Axios API
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Socket.io
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+GraphQL + Nodejs
 
-## Deploy on Vercel
+Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please make sure to update tests as also
+
+## License
+Do whatever, I'm just making this to impress a CTO...

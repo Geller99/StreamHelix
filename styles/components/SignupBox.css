@@ -1,0 +1,13 @@
+
+@media all and (min-width: 1200px) and (max-width: 2000px) {
+
+        .SignupBox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #1D1F28;
+                height: 100%;
+                width: 100%;
+                color: white; 
+        }
+}

@@ -1,0 +1,167 @@
+.MainFeed {
+
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+    background-color: #0C1417;
+    overflow-y: scroll;
+    color: white;
+  /* This is better for small screens, once min() is better supported */
+  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+    gap: 5px;
+    
+
+}
+
+.MainFeed--TopNav{
+    display: flex;
+    /* border: 1px solid blue; */
+    grid-column: 3 / -6;
+    grid-row: 1 / span 1;
+    margin-top: 20px;
+}
+
+.MainFeed--Tabs {
+    /* border: 1px solid red; */
+    grid-column: 1 / -1;
+    grid-row: 2 / 3 
+}
+
+.MainFeed--Users {
+    /* border: 1px solid green; */
+    grid-column: 1 / -1;
+    grid-row: 3 / 4;
+}
+
+.MainFeed--Feed {
+    border: 1px solid wheat;
+    grid-column: 1 / -1;
+    grid-row: 4 / -1;
+}
+
+.MainFeed--RightNav {
+    display: flex;
+    /* border: 1px solid green; */
+    grid-column: -6 / -1;
+    grid-row: 1 / span 1;
+    margin-top: 20px;
+
+} 
+
+.MainFeed--LeftNav {
+    display: none;
+   
+}
+
+.MainFeed--Feed {
+
+}
+
+.MainFeed--Sidebar {
+
+}
+
+
+
+@media all and (min-width: 894px) and (max-width: 2000px) {
+    .MainFeed {
+
+        display: grid;
+        border: 1px solid black;
+        grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(40px, 1fr));
+        background-color: #0C1417;
+        overflow-y: scroll;
+      /* This is better for small screens, once min() is better supported */
+      /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+        gap: 5px;
+        
+    
+    }
+    
+    .MainFeed--RightNav {
+        display: flex;
+        /* border: 1px solid green; */
+        grid-column: -1 / -3;
+        grid-row: 1 / -1;
+
+    } 
+
+    .MainFeed--LeftNav {
+        display: flex;
+        /* border: 1px solid white; */
+        grid-column: 1 / span 2;
+        grid-row: 1 / -1;
+    
+    }
+
+    .MainFeed--TopNav{
+        margin-top: 15px;
+        border: none;
+        grid-column: 3 / -3;
+        grid-row: 1 / span 1;
+    }
+    
+    .MainFeed--Tabs {
+        border: none;
+        grid-column: 3 / -3;
+        grid-row: 2 / 3 
+    }
+    
+
+    .MainFeed--Users {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 3 / -3;
+        grid-row: 3 / 6;
+    }
+
+    .MainFeed--Feed {
+        border: 1px solid wheat;
+        grid-column: 6 / -5;
+        grid-row: 6 / -1;
+    }
+
+}
+
+
+@media all and (min-width: 1200px) and (max-width: 2000px) {
+    .MainFeed--Users {
+        border: none;
+        display: none;
+    }
+
+    .MainFeed--Feed {
+        border: 1px solid wheat;
+        grid-column: 5 / -16;
+        grid-row: 4 / -1;
+    }
+
+    .MainFeed--Users {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: -15 / -5;
+        grid-row: 9 / 16;
+    }
+
+    .MainFeed--ManageUser {
+        /* border: 1px solid green; */
+        display: flex;
+        grid-column: -15 / -5;
+        grid-row: 4 / 8;
+    }
+
+    .MainFeed--Suggestions {
+        /* border: 1px solid gold; */
+        display: flex;
+        grid-column: -15 / -5;
+        grid-row: 17 / 20;
+    }
+
+
+}
