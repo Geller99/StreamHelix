@@ -24,8 +24,8 @@ function FeedMain() {
           <iframe className='User--iframe' src="" ></iframe>
         </div>
         <div className='FeedMain-RightPanel_detailBox'>
-          <div className='RightPanel_Game'>Game Name</div>
-          <span className='RightPanel_Title'>Clip Title</span>
+          {/* <div className='RightPanel_Game'>Game Name</div>
+          <span className='RightPanel_Title'>Clip Title</span> */}
           
           <div className='FeedMain-RightPanel_detailBox-accessories'>
             <div>username</div>
