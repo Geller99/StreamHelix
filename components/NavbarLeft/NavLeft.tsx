@@ -8,12 +8,12 @@ import Refresh from "./../../utilities/Refresh";
 // import { logoHelix } from './../../pages/_app';
 import Image from 'next/image'
 
-
 const NavLeft = () => {
   return (
     <div className="NavLeft">
       <div className="NavLeft--section1">
         {/* <Image className='NavLeft--Logo' alt='LogoHelix' src={logoHelix} /> */}
+        
         <button>
           <Refresh />
         </button>

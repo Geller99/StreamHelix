@@ -6,6 +6,7 @@ import FeedTab from './../../components/FeedTab/FeedTab';
 import FeaturedEvents from './../../components/CurrentEvents/FeaturedEvents';
 import Usersuggestions from './../../components/UserSuggestions/Usersuggestions';
 import SignupBox from './../../components/SignupForm/SignupBox';
+import FeedMain from './../../components/FeedMain/FeedMain';
 
 
 const MainFeed :React.FC = () => {
@@ -17,7 +18,7 @@ const MainFeed :React.FC = () => {
       <div className='MainFeed--Users'> <FeaturedEvents/> </div>
       <div className='MainFeed--LeftNav'> <NavLeft/>  </div>
       <div className='MainFeed--RightNav'> <NavRight/> </div>
-      <div className='MainFeed--Feed'></div>
+      <div className='MainFeed--Feed'> <FeedMain/> <FeedMain/> <FeedMain/> <FeedMain/> </div>
       <div className='MainFeed--ManageUser'> <SignupBox/> </div>
       <div className='MainFeed--Suggestions'> <Usersuggestions/>  </div>
 

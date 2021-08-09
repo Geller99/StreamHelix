@@ -5,7 +5,7 @@
     grid-template-columns: repeat(auto-fill, minmax(32px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
     background-color: #0C1417;
-    overflow-y: scroll;
+    overflow:hidden;
     color: white;
   /* This is better for small screens, once min() is better supported */
   /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
@@ -35,9 +35,12 @@
 }
 
 .MainFeed--Feed {
-    border: 1px solid wheat;
+    margin-top: 20px;
     grid-column: 1 / -1;
     grid-row: 4 / -1;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    white-space: nowrap;
 }
 
 .MainFeed--RightNav {
@@ -120,9 +123,13 @@
     }
 
     .MainFeed--Feed {
-        border: 1px solid wheat;
+     
         grid-column: 6 / -5;
         grid-row: 6 / -1;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        white-space: nowrap;
+
     }
 
 }
@@ -135,7 +142,6 @@
     }
 
     .MainFeed--Feed {
-        border: 1px solid wheat;
         grid-column: 5 / -16;
         grid-row: 4 / -1;
     }
@@ -163,5 +169,69 @@
         grid-row: 17 / 20;
     }
 
+
+}
+
+@media all and (min-width: 1500px) and (max-width: 2000px) {
+    .MainFeed--Feed {
+        grid-column: 7 / -21;
+        grid-row: 4 / -1;
+    }
+
+    .MainFeed--ManageUser {
+        /* border: 1px solid green; */
+        display: flex;
+        grid-column: -18 / -8;
+        grid-row: 4 / 8;
+    }
+
+    .MainFeed--Suggestions {
+        /* border: 1px solid gold; */
+        display: flex;
+        grid-column: -18 / -8;
+        grid-row: 17 / 20;
+    }
+
+    .MainFeed--Users {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: -18 / -8;
+        grid-row: 9 / 16;
+    }
+
+
+
+}
+
+@media all and (min-width: 1700px) and (max-width: 2000px) {
+    .MainFeed--Feed {
+        grid-column: 9 / -24;
+        grid-row: 4 / -1;
+    }
+
+    .MainFeed--ManageUser {
+        /* border: 1px solid green; */
+        display: flex;
+        grid-column: -22 / -11;
+        grid-row: 4 / 8;
+    }
+
+    .MainFeed--Suggestions {
+        /* border: 1px solid gold; */
+        display: flex;
+        grid-column: -22 / -11;
+        grid-row: 17 / 20;
+    }
+
+    .MainFeed--Users {
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: -22 / -11;
+        grid-row: 9 / 16;
+    }
 
 }

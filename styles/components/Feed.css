@@ -1,0 +1,211 @@
+.FeedMain {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    height: 77%;  
+    margin-bottom: 70px;  
+ }
+
+ .FeedMain--RightPanel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+}
+
+.FeedMain-RightPanel_iframe {
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid gold; */
+}
+
+.FeedMain-RightPanel_detailBox {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20%;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #171921;
+}
+
+.RightPanel_Game{
+    height: 15%;
+}
+
+.RightPanel_Title {
+    height: 20%;
+}
+
+
+
+.FeedMain-RightPanel_CommentBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #171921;
+}
+
+.FeedMain-RightPanel_CommentBox-input{
+    width: 90%;
+    height: 70%;
+    background-color: #171921;
+    border: 1px solid rgb(66, 66, 76);
+    border-radius: 5px;
+}
+
+.User--iframe {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Enter-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 5%;
+    border: 1px solid rgb(66, 66, 76);
+}
+
+.FeedMain-RightPanel_detailBox-accessories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+
+.RightPanel_Game {
+    font-size: 11px;
+}
+
+.RightPanel_Title {
+    font-size: 11px;
+}
+
+.FeedMain--LeftPanel{
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+.User--iframe {
+    background-color: black;
+}
+
+
+@media all and (min-width: 894px) and (max-width: 2000px) {
+    
+    
+    .FeedMain {
+       display: flex;
+       justify-content: center;
+       width: 100%; 
+       height: 77%;  
+       margin-bottom: 70px;  
+    }
+
+    .FeedMain--RightPanel {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+    }
+
+    .FeedMain-RightPanel_iframe {
+        height: 70%;
+        width: 100%;
+        /* border: 1px solid gold; */
+    }
+
+    .FeedMain-RightPanel_detailBox {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 20%;
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        background-color: #171921;
+    }
+
+    .FeedMain-RightPanel_CommentBox {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #171921;
+    }
+
+    .FeedMain-RightPanel_CommentBox-input{
+        width: 90%;
+        height: 70%;
+        background-color: #171921;
+        border: 1px solid rgb(66, 66, 76);
+        border-radius: 5px;
+    }
+
+    .User--iframe {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .Enter-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+        width: 5%;
+        border: 1px solid rgb(66, 66, 76);
+    }
+
+    .FeedMain-RightPanel_detailBox-accessories {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .angry-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FeedMain--LeftPanel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 60%;
+        width: 10%;
+        
+    }
+
+    .FeedMain--LeftPanel_LikeButton {
+        position: relative;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: rgba(255, 255, 255, 0.16);
+        transition: background 150ms ease 0s;
+        border-radius: 50%;
+        margin-bottom: 4px;
+    }
+
+    
+
+}
